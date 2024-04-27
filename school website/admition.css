@@ -1,0 +1,33 @@
+#fo{
+    width: 40%;
+    border: 2px solid rgb(190, 245, 242);
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+    margin-top: 5%;
+    background-color: aliceblue;
+}
+
+
+#inphi{
+
+    padding: 20px;
+    margin: 20px;
+
+}
+
+#bt{
+    background-color: green;
+    color: white;
+}
+
+#fo #bt{
+
+    margin-left: 18px;
+
+}
+
+body{
+    background: linear-gradient(to right, rgb(107, 246, 107), rgb(140, 75, 245));
+}

@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.image-scroll-bar {
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    white-space: nowrap;
+}
+
+.image-scroll-bar img {
+    width: 100%;
+    height: auto;
+    scroll-snap-align: start;
+}
